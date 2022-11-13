@@ -1,0 +1,63 @@
+.hub-container {
+    background-color: rgb(243, 245, 247);
+    padding: 100px;
+}
+
+.hubHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hubText {
+    width: 650px;
+}
+
+.hubLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.headingLink a {
+    text-decoration: none;
+}
+
+.hubLinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.hubLinks>.active {
+    color: #fff;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.hubCardWrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.finance {
+    background-color: rgb(202, 202, 239);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: small;
+}
+
+.hubcardRead a {
+    text-decoration: none;
+}
+
+.hubCardOne {
+    background-color: #fff;
+    margin: 10px 20px 10px 0px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.hubCardText {
+    padding: 20px 0px;
+}

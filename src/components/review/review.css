@@ -1,0 +1,39 @@
+.review-container {
+    background: url(../../Assets/Rectangle\ 193.png);
+    color: #fff;
+    padding: 100px;
+}
+
+.reviewHeading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.reviewHeading h2 {
+    width: 400px;
+    font-weight: bolder;
+}
+
+.reviewHeading p {
+    width: 400px;
+}
+
+.reviewCards {
+    display: flex;
+}
+
+.CardOne {
+    background-color: #fff;
+    color: black;
+    margin: 20px 30px 20px 0px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.CardOne img {
+    position: absolute;
+    top: -15%;
+    left: 10%;
+}

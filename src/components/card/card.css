@@ -1,0 +1,79 @@
+.card-container {
+    background-color: rgb(243, 245, 247);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.firstCard-wrapper {
+    display: flex;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 100px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62));
+    box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+}
+
+.firstCard-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.firstCard-left h6 {
+    color: blue;
+}
+
+.firstCard-left p {
+    color: black;
+    font-size: 17px;
+    font-size: small;
+}
+
+.firstCard-left h3 {
+    font-weight: 900;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-item {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.firstCard-bottom {
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.firstCard-bottom a {
+    text-decoration: none;
+}
+
+.SecondCard-wrapper {
+    background: url(../../Assets/Pattern-02.png);
+    display: flex;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 100px;
+    opacity: 75%;
+    box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+}
+
+.fourthCard-wrapper {
+    /* background: url(../../Assets/Pattern-04.png); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62), url(../../Assets/Pattern-04.png));
+    box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+    display: flex;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 100px;
+    /* opacity: 0.7; */
+    box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+}

@@ -1,0 +1,166 @@
+.Hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+
+.Hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background: url(../../Assets/container\ \(1\).png);
+    padding-top: 5rem;
+}
+
+.hero-news {
+    font-size: small;
+    background: rgba(39, 100, 255, 0.08);
+    padding: 4px 8px;
+    border-radius: 15px;
+}
+
+
+/* Second Hero-news */
+
+.hero-newstoo {
+    font-size: small;
+    background: rgba(39, 100, 255, 0.08);
+    padding: 4px 8px;
+    border-radius: 25px;
+    display: none;
+}
+
+.hero-newstoo button {
+    border: none;
+    background: transparent;
+    color: blue;
+}
+
+.hero-newstoo span {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+
+/* end of Second Hero-news */
+
+.hero-news span {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.hero-news button {
+    border: none;
+    background: transparent;
+    color: blue;
+}
+
+.hero-cryptocurrency {
+    text-align: center;
+    width: 650px;
+}
+
+.hero-cryptocurrency p {
+    color: #555C63;
+    font-size: 13px;
+    line-height: 7px;
+    margin: 15px;
+}
+
+.hero-input {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.hero-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-input button {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    background: linear-gradient(90deg, blue, red);
+}
+
+.hero-download {
+    margin-top: 50px;
+}
+
+.hero-download span {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.hero-bottom {
+    background-color: #E5E2FB;
+    box-sizing: border-box;
+    border: 1px solid rgba(224, 220, 241, 0.24);
+}
+
+.marketPrices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.Markets {
+    margin-right: 10px;
+}
+
+.Market {
+    margin-right: 5px;
+    padding: 0px 5px;
+    border-left: 1px solid #CCCEE2;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Market img {
+    width: 20px;
+}
+
+.rate {
+    color: #53B400;
+}
+
+.rateRed {
+    color: #F45771;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+    .Hero-container {
+        width: 50%;
+    }
+    .hero-news {
+        display: none;
+    }
+    .hero-cryptocurrency {
+        align-content: flex-start;
+        width: 50%;
+    }
+    .Hero-wrapper {
+        width: 50rem;
+        overflow-x: hidden;
+    }
+}

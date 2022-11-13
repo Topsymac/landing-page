@@ -1,0 +1,103 @@
+.footerContainer {
+    background: url(../../Assets/Footer\ BG.png);
+    color: #fff;
+    padding: 100px;
+}
+
+.storeLink {
+    display: flex;
+    gap: 1rem;
+}
+
+.Appstore {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.Playstore {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footerRoqqu {
+    width: 230px;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+.footerRoqqu img {
+    width: 70px;
+}
+
+.footerRoqqu p {
+    padding-top: 15px;
+}
+
+.footerInput {
+    background: #2A2C44;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footerInput input {
+    background: none;
+    border: none;
+}
+
+.footerInput img {
+    width: 1rem;
+}
+
+.footerInput input::placeholder {
+    font-size: small;
+    color: #A7B1BC;
+}
+
+.footerLinks {
+    margin-top: 20px;
+}
+
+.footerLinks img {
+    padding: 0px 10px;
+    width: 50px;
+}
+
+.footerbottom {
+    border-top: 2px solid #2A2C44;
+    padding: 20px 0px;
+    margin: 50px 0px;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerGrid {
+    display: flex;
+    gap: 25rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+}
+
+.grid-container li {
+    list-style: none;
+    font-size: small;
+}
+
+.grid-container h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottomRight {
+    width: 50%;
+}
+
+
+/* Media Queries */

@@ -1,0 +1,39 @@
+.trade-container {
+    background-color: rgb(243, 245, 247);
+    padding: 100px;
+}
+
+.trade-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.tradeLeft h2 {
+    font-weight: bolder;
+}
+
+.tradeLeft p {
+    font-size: small;
+}
+
+.tradeLeftLink {
+    display: flex;
+    gap: 1rem;
+    margin: 50px 0px;
+}
+
+.tradeEasy {
+    width: 30%;
+}
+
+.tradeAlways {
+    width: 30%;
+}
+
+.tradeRight {
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 40rem;
+}
