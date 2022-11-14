@@ -47,6 +47,10 @@
     font-size: small;
 }
 
+.hubCardImage img {
+    width: 100%;
+}
+
 .hubcardRead a {
     text-decoration: none;
 }
@@ -60,4 +64,25 @@
 
 .hubCardText {
     padding: 20px 0px;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+    .hub-container {
+        width: 100vw;
+        padding: 5rem 1rem;
+    }
+    .hubText {
+        width: 96vw;
+        padding: 0.5rem;
+    }
+    .hubLinks {
+        width: 90vw;
+    }
+    .hubCardWrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -37,3 +37,22 @@
     position: absolute;
     left: 40rem;
 }
+
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+    .trade-container {
+        width: 100vw;
+        padding: 40px;
+        position: relative;
+    }
+    .tradeLeftLink {
+        width: 96vw;
+        display: flex;
+        gap: 3rem;
+    }
+    .tradeRight img {
+        width: 50px;
+    }
+}

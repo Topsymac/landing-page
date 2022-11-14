@@ -101,3 +101,41 @@
 
 
 /* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .footerContainer {
+        width: 100vw;
+        margin: 0;
+        padding: 50px 20px;
+    }
+    .footerGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .storeLink {
+        width: 100vw;
+        display: flex;
+        gap: 5rem;
+    }
+    .footerInput {
+        width: fit-content;
+    }
+    .footerLinks {
+        width: auto;
+        display: flex;
+    }
+    .grid-container {
+        display: flex;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .footerbottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomRight {
+        width: 96vw;
+    }
+}

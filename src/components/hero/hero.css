@@ -70,7 +70,6 @@
 .hero-cryptocurrency p {
     color: #555C63;
     font-size: 13px;
-    line-height: 7px;
     margin: 15px;
 }
 
@@ -79,6 +78,10 @@
     padding: 5px;
     border-radius: 10px;
     background-color: #fff;
+}
+
+.hero-inputButton {
+    display: none;
 }
 
 .hero-input input {
@@ -114,11 +117,15 @@
     border: 1px solid rgba(224, 220, 241, 0.24);
 }
 
+.heroImageApps {
+    display: none;
+}
+
 .marketPrices {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .Markets {
@@ -150,17 +157,70 @@
 
 @media only screen and (max-width: 768px) {
     .Hero-container {
-        width: 50%;
+        width: 100vw;
+        margin: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 3rem;
     }
     .hero-news {
         display: none;
     }
+    .hero-newstoo {
+        display: block;
+        margin: 15px;
+    }
     .hero-cryptocurrency {
         align-content: flex-start;
-        width: 50%;
+        width: 100vw;
+        text-align: start;
+        margin-left: 1rem;
+    }
+    .hero-cryptocurrency p {
+        align-content: flex-start;
+        width: 84vw;
+        text-align: start;
+        font-weight: 500;
+        margin-left: 1rem;
+        margin: 0;
+        font-size: 18px;
+        line-height: 32px;
     }
     .Hero-wrapper {
         width: 50rem;
         overflow-x: hidden;
+    }
+    .hero-input {
+        display: none;
+    }
+    .hero-inputButton {
+        display: block;
+        padding: 15px;
+    }
+    .hero-download {
+        display: none;
+    }
+    .heroImageApps {
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        padding: 25px;
+    }
+    .hero-image img {
+        width: 90vw;
+    }
+    .hero-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .marketPrices {
+        width: max-content;
+        overflow: auto !important;
+    }
+    .hero-bottom {
+        width: 100vw;
+        overflow-x: auto;
     }
 }

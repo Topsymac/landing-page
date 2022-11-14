@@ -8,6 +8,8 @@ import usdt from '../../Assets/tether.png';
 import litecoin from '../../Assets/litecoin.png';
 import xrp from '../../Assets/xrp.png';
 import arrow from'../../Assets/fi_chevrons-right.png';
+import google from '../../Assets/Google Play.png';
+import apps from '../../Assets/App Store.png'
 
 
 
@@ -30,8 +32,15 @@ const Hero = () => {
             <input type="text" placeholder='Your email address'>
             </input> <span><button>Get started <img src={arrow} alt="" /></button></span>
           </div>
+          <div className="hero-inputButton">
+          <button>Get started <img src={arrow} alt="" /></button>
+          </div>
           <div className="hero-download">
             <p>Press <span>D</span> Download our app! Dive into the Roqqu world!</p>
+          </div>
+          <div className="heroImageApps">
+            <img src={google} alt="" />
+            <img src={apps} alt="" />
           </div>
           <div className="hero-image">
             <img src={heroImage} alt="" />

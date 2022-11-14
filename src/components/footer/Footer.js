@@ -32,8 +32,8 @@ const Footer = () => {
         <div className="footerGrid">
             <div className="footerLeft">
                 <div className="footerInput">
-                <input type="text"placeholder='Email Address' />
-                <img src={arrow} alt="" />
+                    <input type="text"placeholder='Email Address' />
+                    <img src={arrow} alt="" />
 
                 </div>
                 <div className="footerLinks">

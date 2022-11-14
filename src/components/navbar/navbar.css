@@ -46,10 +46,10 @@
         display: none;
     }
     .navbartoo {
+        width: 100vw;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 5rem;
         position: fixed;
         padding: 3rem;
     }
