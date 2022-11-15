@@ -7,15 +7,22 @@ body {
     background: url(/src/Assets/container\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
     overflow-x: hidden;
 }
 
-* {
+.App {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/* * {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

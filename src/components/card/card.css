@@ -97,11 +97,14 @@
     .grid {
         display: block;
     }
+    .firstCard-right {
+        width: 95vw;
+    }
     .firstCard-bottom {
         width: 90vw;
     }
     .firstCard-right img {
-        width: 100vw;
+        width: 95vw;
         padding-right: 3rem;
     }
     .firstCard-wrapper {

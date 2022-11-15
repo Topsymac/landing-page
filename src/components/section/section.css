@@ -75,7 +75,11 @@
         gap: 2rem;
         align-items: flex-start;
         text-align: left;
+        width: 95vw;
         margin-left: 20px;
+    }
+    .section-power {
+        width: auto;
     }
     .section-power p {
         padding-top: 1rem;

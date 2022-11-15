@@ -187,7 +187,7 @@
         line-height: 32px;
     }
     .Hero-wrapper {
-        width: 50rem;
+        width: 100vw;
         overflow-x: hidden;
     }
     .hero-input {
@@ -221,6 +221,6 @@
     }
     .hero-bottom {
         width: 100vw;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 }
