@@ -54,3 +54,17 @@
         padding: 3rem;
     }
 }
+
+@media only screen and (max-width: 1340px) {
+    .navbar {
+        display: none;
+    }
+    .navbartoo {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 3rem;
+    }
+}

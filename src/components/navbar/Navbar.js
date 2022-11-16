@@ -5,6 +5,7 @@ import "./navbar.css";
 import roqquLogo from "../../Assets/Logo-White.svg"
 import flag from "../../Assets/Ellipse 22.png"
 import Arrow from '../arrow/Arrow';
+import Menu from '../../Assets/Menu.png';
 
 const Navbar = () => {
   return (
@@ -36,9 +37,12 @@ const Navbar = () => {
             <img src={roqquLogo} alt="" />
         </div>
         <div className="navbarRight">
-        <img src={flag} alt="" />
+          <img src={flag} alt="" />
           <div className="arrow">
             <Arrow/>
+          </div>
+          <div className="navMenu">
+            <img src={Menu} alt="" />
           </div>
         </div>
       </nav>
