@@ -1,6 +1,6 @@
 import React from 'react';
 import Arrow from '../arrow/Arrow';
-import SideArrow from '../sideArrow/SideArrow';
+// import SideArrow from '../sideArrow/SideArrow';
 import './button.css';
 
 const Button = () => {

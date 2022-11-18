@@ -6,7 +6,7 @@ import kitePicture from '../../Assets/Lighting Jet (2).png';
 import safePicture from '../../Assets/Lighting Jet (3).png';
 import coinPicture from '../../Assets/Lighting Jet (4).png';
 import logo from '../../Assets/Icon.png'
-import button from '../button/Button'
+// import button from '../button/Button'
 import chevron from '../../Assets/chevrons-right.png';
 import arrow from'../../Assets/fi_chevrons-right.png';
 
