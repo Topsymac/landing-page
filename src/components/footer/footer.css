@@ -102,7 +102,7 @@
 
 /* Media Queries */
 
-@media only screen and (max-width: 1340px) {
+@media only screen and (max-width: 1280px) {
     .footerContainer {
         width: 100vw;
         margin: 0;
@@ -116,7 +116,7 @@
     .storeLink {
         width: 100vw;
         display: flex;
-        gap: 5rem;
+        gap: 3rem;
     }
     .footerInput {
         width: fit-content;
@@ -129,6 +129,9 @@
         display: flex;
         width: fit-content;
         margin: 0;
+        padding: 0;
+    }
+    .grid-container ul {
         padding: 0;
     }
     .footerbottom {

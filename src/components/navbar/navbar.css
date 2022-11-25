@@ -38,6 +38,21 @@
     background: linear-gradient(90deg, blue, red);
 }
 
+.navMenu {
+    position: relative;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 0.2rem;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -51,7 +66,7 @@
         justify-content: space-between;
         align-items: center;
         position: fixed;
-        padding: 3rem;
+        padding: 2rem;
     }
 }
 
@@ -65,6 +80,6 @@
         justify-content: space-between;
         align-items: center;
         position: fixed;
-        padding: 3rem;
+        padding: 2rem;
     }
 }

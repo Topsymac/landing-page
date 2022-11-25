@@ -73,7 +73,7 @@
     .tradeRight img {
         width: 50%;
         position: absolute;
-        top: 60%;
+        /* top: 75%; */
     }
     .trade-wrapper {
         display: flex;

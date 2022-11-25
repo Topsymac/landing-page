@@ -1,13 +1,15 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import "./navbar.css";
-
 import roqquLogo from "../../Assets/Logo-White.svg"
 import flag from "../../Assets/Ellipse 22.png"
 import Arrow from '../arrow/Arrow';
 import Menu from '../../Assets/Menu.png';
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+ 
+
   return (
     <div className="App">
       <nav className="navbar navbar-expand-lg ">
@@ -32,8 +34,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      {/* mobile navbar */}
       <nav className="navbartoo">
-      <div className="navbarLeft">
+        <div className="navbarLeft">
             <img src={roqquLogo} alt="" />
         </div>
         <div className="navbarRight">
@@ -41,14 +44,27 @@ const Navbar = () => {
           <div className="arrow">
             <Arrow/>
           </div>
+          {/* Click on menu trial */}
           <div className="navMenu">
-            <img src={Menu} alt="" />
+            <div className="nav-icon" onClick={() => setShowNav(showNav => !showNav)}>
+              <img src={Menu} alt="" />
+            </div>
+            {showNav && 
+              <div className="nav-items">
+                <div>Wallet</div>
+                <div>Exchange</div>
+                <div>For Business</div>
+                <div>Developers</div>
+                <div>Learn</div>
+              </div>
+            }
           </div>
+          {/* End of menu trial */}
         </div>
       </nav>
-
-
     </div>
+
+    
   )
 }
 
