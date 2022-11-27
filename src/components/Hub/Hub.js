@@ -18,10 +18,10 @@ const Hub = () => {
             </div> 
             <div className = "hubLinks" >
                 <a href ='all' className ='active'>All</a> 
-                <a href ='trading'>Trading</a> 
-                <a href ='crypto'>Cryptocurrency</a> 
-                <a href ='blockchain'>Blockchain</a> 
-                <a href ='defi'>Defi</a> 
+                <a href ='trading'>Trading <span className='mini'>(17)</span></a> 
+                <a href ='crypto'>Cryptocurrency <span className='mini'>(17)</span></a> 
+                <a href ='blockchain'>Blockchain <span className='mini'>(17)</span></a> 
+                <a href ='defi'>Defi <span className='mini'>(17)</span ></a> 
             </div> 
             <div className ="hubCardWrapper">
                 <div className ="hubCardOne">
